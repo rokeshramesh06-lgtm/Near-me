@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "buildCommand": "cd backend && npm install && npm run build || true",
+  "outputDirectory": "backend/dist",
+  "public": false,
+  "framework": "nodejs",
+  "regions": ["iad1"],
+  "crons": []
+}
