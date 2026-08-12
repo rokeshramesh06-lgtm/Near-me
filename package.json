@@ -1,0 +1,18 @@
+{
+  "name": "homemate",
+  "version": "1.0.0",
+  "description": "HomeMate - Find daily household needs nearby",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
