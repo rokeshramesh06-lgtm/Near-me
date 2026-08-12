@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "cd frontend && npm run build",
+  "buildCommand": "cd frontend && npm install --legacy-peer-deps && npm run build",
   "outputDirectory": "frontend/dist",
+  "framework": "vite",
   "env": {
     "VITE_API_URL": "@vite_api_url"
-  },
-  "framework": "vite",
-  "public": false
+  }
 }
